@@ -1,0 +1,215 @@
+html {
+    scroll-behavior: smooth;
+  }
+
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans',sans-serif;
+    background-color: #eee1d1;
+}
+
+.container {
+    width : 100%;
+    margin-top: 60px;
+}
+
+.container-half {
+    width : 50%;
+    float : left;
+    margin-top: 15%;
+    
+
+}
+
+
+.container-img {
+    width : 50%;
+    float : left;
+
+}
+
+
+
+.wrapper {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+.logo a {
+    font-size: 50px;
+    font-weight: 600;
+    float: left;
+    font-family: 'Caveat Brush';
+    color: whitesmoke;
+}
+
+.menu {
+    float: right;
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky; 
+    top: 0;
+    background: #2B0806;
+    z-index: 1;
+    border-bottom:1px solid #2B0806;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color: whitesmoke;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+    font-family: 'Didact Gothic';
+    font-size: 20px;
+    opacity: 100%;
+    
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+    opacity: 75%;
+    transition: opacity 0.5s;
+    
+}
+
+section {
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.contact-logo{
+    opacity:100%
+}
+
+.contact-logo:hover{
+    opacity:75%;
+    transition: 0.5s;
+}
+
+.column {
+    margin-top: 100px;
+    margin-bottom: 50px; 
+}
+
+.column .pengenalan {
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Englebert';
+    padding-top: 130px;
+    padding-bottom: 10px;
+}
+
+h2 {
+    font-family: 'Concert One';
+    font-weight: 600;
+    font-size: 50px;
+    margin-bottom: 30px;
+    color: #2B0806;
+    width: 100%;
+    line-height: 50px;
+}
+
+.column .biodata{
+    font-size: 60px;
+    padding-top: 85px;
+}
+
+p {
+    font-size: 25px;
+    font-family: 'Englebert';
+    font-weight: bold;
+    line-height: normal;
+    text-align: justify;
+}
+
+.tengah {
+    text-align:center;
+    width: 100%;
+}
+
+.timeline-area {
+    margin: 50px auto;
+    width: 550px;
+    border-left: 2px solid #2B0806;
+    padding: 0 20px 0 30px;
+}
+
+.timelinediv {
+    background-color: ivory;
+    padding: 10px 25px;
+    font-size: 20px;
+    border: 1px solid #ccc;
+    line-height: 1.7;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.timelinediv:before {
+    content: '';
+    display: block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: ivory;
+    border: 3px solid #2B0806;
+    position: absolute;
+    top: 10px;
+    left: -40px;
+}
+
+.timelinediv h3{
+    margin: 0;
+    font-family: 'Caveat Brush';
+    font-weight:bolder;
+    position: relative;
+    font-size: 26px;
+}
+
+.timelinediv h4{
+    margin: 0;
+    font-family: 'Englebert';
+    font-weight: bolder;
+}
+
+.timelinediv h5{
+    margin: 0;
+    font-family: 'Englebert';
+    font-weight: bold;
+}
+
+#copyright {
+    text-align: center;
+    width: 100%;
+    padding: 50px 0px 50px 0px;
+    margin-top: 50px;
+}
+
+
